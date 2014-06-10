@@ -1,0 +1,868 @@
+/**common codes for all pages are between from line 2 to 107    **/
+html
+{
+background-image:url(images/wall.jpg);
+width:100%
+}
+p 
+{
+font-size:14px;
+font-style:normal;
+
+}
+p.sansserif
+{
+font-family:Arial,sans-serif;
+}
+header
+{
+position:absolute;
+top:0px;
+left:0px;
+width:1350px;
+height:85px;
+text-align:center;
+margin:0px;
+padding:0px;
+z-index:1;
+background-image:url(images/PAPER1.jpg);
+/* background image is taken from internet link is as following https://www.google.ie/search?q=plain+wallpaper&client=firefox-a&hs=lqP&rls=org.mozilla:en-US:official&source=lnms&tbm=isch&sa=X&ei=_K-1Ur3xItHb7AbO24DoCw&ved=0CAkQ_AUoAQ&biw=1366&bih=664#facrc=_&imgdii=_&imgrc=Yy6Z2704X5cZWM%3A%3BDCNnNBw_q0ndYM%3Bhttp%253A%252F%252Fwww.wallsave.com%252Fwallpapers%252F1920x1200%252Froofing%252F750763%252Froofing-paper-plain-texture-750763.jpg%3Bhttp%253A%252F%252Fwww.wallsave.com%252Fwallpaper%252F1920x1200%252Froofing-paper-plain-texture-750763.html%3B1920%3B1200 */
+}
+
+h2#hh
+{
+position:absolute;
+top:10px;
+right:25px;
+color:#340e40;
+}
+
+body
+{
+left:0px;
+top:0px;
+}
+
+
+#navbar4menu2 ul {
+margin: 0;
+padding: 0px 0px 0px 5px;
+list-style: none;
+line-height: normal;
+}
+#navbar4menu2 li {
+display: block;
+float: left;
+}
+
+#navbar4menu2 a {
+display: block;
+float: left;
+height: 15px;
+width:80px;
+margin-right: 3px;
+padding: 14px 25px 15px 25px;
+text-decoration: none;
+text-transform: capitalize;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 16px;
+color: #55a686;
+font-weight:bold;
+}
+#navbar4menu2
+{
+position:absolute;
+z-index:100;
+width:130px;
+height:555px;
+background-image:url("images/wall.jpg");
+
+margin:77px 0px 0px -8px;
+text-align:left;
+font-family: arial;
+font-size:22px;
+}
+#navbar4menu
+{
+position:absolute;
+z-index:100;
+width:130px;
+height:915px;
+background-image:url("images/wall.jpg");
+
+margin:77px 0px 0px -8px;
+text-align:left;
+font-family: arial;
+font-size:22px;
+}
+#navbar4menu1
+{
+position:absolute;
+z-index:100;
+width:130px;
+height:935px;
+background-image:url("images/wall.jpg");
+
+margin:77px 0px 0px -8px;
+text-align:left;
+font-family: arial;
+font-size:22px;
+}
+#navbar4menu1 ul {
+margin: 0;
+padding: 0px 0px 0px 5px;
+list-style: none;
+line-height: normal;
+}
+#navbar4menu1 li {
+display: block;
+float: left;
+}
+
+#navbar4menu1 a {
+display: block;
+float: left;
+height: 15px;
+width:80px;
+margin-right: 3px;
+padding: 14px 25px 15px 25px;
+text-decoration: none;
+text-transform: capitalize;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 16px;
+color: #55a686;
+font-weight:bold;
+}
+
+
+
+
+
+#navbar4menu ul {
+margin: 0;
+padding: 0px 0px 0px 5px;
+list-style: none;
+line-height: normal;
+}
+#navbar4menu li {
+display: block;
+float: left;
+}
+
+#navbar4menu a {
+display: block;
+float: left;
+height: 15px;
+width:80px;
+margin-right: 3px;
+padding: 14px 25px 15px 25px;
+text-decoration: none;
+text-transform: capitalize;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 16px;
+color: #55a686;
+font-weight:bold;
+}
+  
+footer
+{
+position:fixed;
+z-index:100;
+bottom:0px;
+left:0px;
+width:100%;
+height:50px;
+background-image:url(images/PAPER4.jpg);
+}
+p#fff
+{
+float:right;
+margin-right:10px;
+margin-top:20px;
+
+}
+
+p#fff2
+{
+position:absolute;
+margin:20px 0px 0px 10px;
+}
+
+/** codes for home page(index.html) are from line 110 to line 173  **/
+#id02
+ {/* this code is for chinese.html page as well */
+ width:1219px;
+height:540px;
+position:absolute;
+margin:77px 0px 0px 122px;
+background-image:url("images/wall.jpg");
+}
+
+#id03
+{
+width:312px;
+height:111px;
+background-image:url(images/PAPER1.jpg);
+position:absolute;
+margin:379px 0px 40px 0px;
+padding:30px 0px 0px 85px;
+border:white;
+border-style:solid;
+border-width:5px;
+}
+
+#id04
+{
+width:312px;
+height:111px;
+background-image:url(images/PAPER1.jpg);
+position:absolute;
+margin:379px 0px 0px 407px;
+padding:30px 0px 0px 85px;
+border:white;
+border-style:solid;
+border-width:5px;
+}
+  
+#id05
+  {
+width:312px;
+height:111px;
+background-image:url(images/PAPER1.jpg);
+position:absolute;
+margin:379px 0px 40px 814px;
+padding:30px 0px 0px 85px;
+border:white;
+border-style:solid;
+border-width:5px;
+}
+  
+.image
+{
+float:left;
+width:386px;
+height:358px;
+margin:0px;
+border:10px solid white;
+}
+.navbar1
+{
+display: block;
+
+text-decoration: none;
+text-transform: capitalize;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 12px;
+color:#8b6b8c;
+}
+/** codes for menu page(menu.html) are from line 176 to line 215  **/
+
+#menu
+{
+position: absolute;
+margin:77px 0px 0px 122px;
+width:1207px;
+background-image:url("images/wall.jpg");
+height:532px;
+padding:10px 0px 10px 30px;
+border-style:solid;
+border-width:0px;
+}
+
+
+div.img
+{
+margin: 5px;
+padding: 15px 5px 5px 30px;
+border: 5px solid #8b6b8c;
+width: 230px;
+height:175px;
+float: left;
+text-align: center;
+}	
+div.img img
+{
+float:left;
+width:200px;
+height:140px;
+margin:0px;
+}
+div.img a:hover img {border: 1px solid #0000ff;}
+
+div.detail
+{
+text-align: center;
+font-weight: normal;
+width: 150px;
+position:absolute;
+margin: 150px 0px 0px 25px;
+}
+  
+ /** codes for offer page(offers.html) are from line 219 to line 238  **/ 
+  
+blockquote.abcd
+{
+color:black;
+position:relative;
+bottom:0px;
+left:20px;
+width:900px;
+height:560px;
+padding:0px;
+}
+#block4offer
+{
+width:1119px;
+background-image:url("images/wall.jpg");
+height:920px;
+position:absolute;
+margin:77px 0px 0px 122px;
+padding:50px 0px 0px 100px;
+border-left:2px solid #369;
+}
+    
+ /** codes for aboutus page(aboutus.html) are from line 243 to line  352 **/
+ 
+ 
+#fotobox {/** this fotobox code is for contactus.html page as well */
+width: 1219px;
+
+background-image:url(images/wall.jpg);
+position: absolute;
+margin: 78px 0px 0px 122px;
+}
+#abouttext
+{
+width:499px;
+height:480px;
+background-image:url(images/wall.jpg);
+position:absolute;
+margin:0px 0px 0px 0px;
+padding:50px 20px 0px 20px;
+}
+
+#aboutnext
+{
+width:221px;
+height:221px;
+background-image:url(images/10.jpg);
+background-repeat:no-repeat;
+border: solid white 4px;
+position:absolute;
+margin:0px 0px 0px 539px;
+}
+
+#aboutnext1
+ {
+ border: solid white 4px;
+width:241px;
+height:142px;
+background-image:url(images/21.jpg);
+position:absolute;
+margin:0px 0px 0px 768px;
+}
+
+#aboutnext2
+{
+border: solid white 4px;
+width:194px;
+height:260px;
+background-image:url(images/22.jpg);
+position:absolute;
+margin:0px 0px 0px 1018px;
+}
+
+#aboutnext3
+{
+width:241px;
+border: solid white 4px;
+height:109px;
+background-image:url(images/7.jpg);
+position:absolute;
+margin:151px 0px 0px 768px;
+}
+
+#aboutnext4
+{
+border: solid white 4px;
+width:220px;
+height:291px;
+background-image:url(images/24.jpg);
+position:absolute;
+margin:229px 0px 0px 539px;
+}
+#aboutnext5
+{
+border: solid white 4px;
+width:444px;
+height:251px;
+background-image:url(images/25.jpg);
+position:absolute;
+margin:269px 0px 0px 768px;
+}
+.CHEE6
+{
+width:452px;
+height:259px;
+padding:0px;
+margin:0px;
+}
+.CHEE1
+{
+width:229px;
+height:229px;
+padding:0px;
+margin:0px;
+}
+.CHEE2
+{
+width:249px;
+height:149px;
+padding:0px;
+margin:0px;
+}
+.CHEE3
+{
+width:249px;
+height:118px;
+padding:0px;
+margin:0px;
+}
+.CHEE4
+{
+width:216px;
+height:269px;
+padding:0px;
+margin:0px;
+}
+.CHEE5
+{
+width:228px;
+height:270px;
+padding:0px;
+margin:0px;
+}
+ 
+/** codes for contactus page(contactus.html) are from line 356 to line 386 **/ 
+  
+#con1
+{
+width:476px;
+height:273px;
+background-image:url(images/wall.jpg);
+position:absolute;
+margin:0px 0px 0px 0px;
+padding:27px 0px 0px 0px;
+}
+
+#con2
+{
+width:718px;
+height:500px;
+background-image:url(images/wall.jpg);
+position:absolute;
+margin:0px 0px 0px 477px;
+padding:5px 5px 5px 5px;
+}
+iframe
+{
+width:630px;
+height:400px;
+background-image:url(images/wall.jpg);
+position:absolute;
+margin:30px 0px 0px 40px;
+padding:2px 2px 2px 2px;
+
+}
+
+
+
+
+#con3
+{
+width:460px;
+height:180px;
+background-image:url(images/wall.jpg);
+position:absolute;
+margin:301px 0px 0px 0px;
+padding:2px 2px 2px 2px;
+}
+
+/** codes for chinese page(chinese.html) are from line 388 to line  428 **/
+  
+#chinesenav
+{ /*THIS CODE IS FOR THAI.HTML PAGE AS WELL*/
+width:1219px;
+height:60px;
+position:absolute;
+margin:0px 0px 0px 0px;
+text-decoration:none;
+background-image:url("images/wall.jpg");
+z-index:100;
+}
+ul.bbb
+{ /*THIS CODE IS FOR THAI.HTML PAGE AS WELL*/
+list-style:none;
+text-decoration:none;
+text-align:center;
+background-image:url("images/wall.jpg");
+}
+
+a.ch
+{
+color:black;
+font-size:1.2em;
+border-right:#8B6B8C .4em solid;
+border-bottom: black .1em solid;
+background-image:url("images/wall.jpg");
+position:relative;
+margin:5px;
+width:400px;
+text-decoration:none;
+}
+#blocke4chinese
+{
+width:600px;
+height:7840px;
+position:absolute;
+margin:0px 0px 0px 0px;
+padding:100px 0px 0px 79px;
+background-image:url("images/wall.jpg");
+border-left:2px solid #369;
+border-right:2px solid #369;
+}
+
+ /** codes for Thai page(thai.html) are from line 433 to line  446 **/
+
+
+#blocke
+{
+width:600px;
+height:4100px;
+background-image:url("images/wall.jpg");
+position:absolute;
+margin:137px 0px 0px 0px;
+padding:5px 0px 0px 122px;
+border-left:2px solid #369;
+border-right:2px solid #369;
+}
+
+
+ /** codes for european page(european.html) are from line 448 to line  468 **/
+
+blockquote.text4europe
+{
+color:black;
+position:relative;
+bottom:0px;
+left:20px;
+width:800px;
+
+padding:10px 0px 0px 100px;
+}
+
+#block4europe
+{
+width:1219px;
+
+position:absolute;
+background-image:url("images/wall.jpg");
+margin:77px 0px 0px 122px;
+border-left:2px solid #369;
+
+}
+
+/** codes for healthycorner page(healthycorner.html) are from line 455 to line  476 **/
+
+#block4healthy
+{
+width:1219px;
+height:532px;
+position:absolute;
+background-image:url("images/wall.jpg");
+margin:77px 0px 0px 122px;
+border-left:2px solid #369;
+}
+
+blockquote.text4healthy
+{
+color:black;
+position:relative;
+bottom:0px;
+left:20px;
+width:800px;
+height:250px;
+padding:100px 0px 0px 100px;
+}
+
+/** codes for kidsbox page(kidsbox.html) are from line 495 to line  513 **/
+
+#block4kids
+{
+width:1219px;
+height:532px;
+position:absolute;
+background-image:url("images/wall.jpg");
+margin:77px 0px 0px 122px;
+border-left:2px solid #369;
+}
+blockquote.text4kids
+{
+color:black;
+position:relative;
+bottom:0px;
+left:20px;
+width:800px;
+height:440px;
+padding:72px 0px 0px 100px;
+}
+	
+/** codes for softdrinks page(softdrinks.html) are from line 517 to line 536  **/
+   
+#block4drinks
+{
+width:1219px;
+height:532px;
+position:absolute;
+background-image:url("images/wall.jpg");
+margin:77px 0px 0px 122px;
+border-left:2px solid #369;
+}
+
+blockquote.text4drinks
+{
+color:black;
+position:relative;
+bottom:0px;
+left:20px;
+width:800px;
+height:440px;
+padding:72px 0px 0px 100px;
+}
+ 
+ 
+ 
+h1#pp
+{/** this is common code for all pages, and is in header**/
+position:absolute;
+top:10px;
+left:25px;
+color:#340e40;
+}
+
+
+h1#ss
+{/** this is common code for aboutus  page, and is in div abouttext**/
+color:red;
+text-align:center;
+
+}
+p.xx
+{/** this is common code for aboutus  page, and is in div abouttext**/
+color:#0a2089;
+text-align:justify;
+font-size:medium;
+}
+h.xx
+{/** this is common code for aboutus  page, and is in div abouttext**/
+color:#0a2089;
+text-align:justify;
+font-size:medium;
+}
+h3.vv
+{/** this is common code for contactus  page,**/
+color:#55a686;
+text-align:center;
+}
+.abc{
+width:650px;
+height:705px;
+position:center;
+padding:60px;
+margin:90px 0px 0px 300px;
+border:ridge 10px green;
+}
+.abc5{
+width:650px;
+height:305px;
+position:center;
+padding:60px;
+margin:90px 0px 0px 300px;
+border:ridge 10px green;
+}
+.abc1{
+width:650px;
+height:815px;
+position:center;
+padding:60px;
+margin:90px 0px 0px 300px;
+border:ridge 10px green;
+}
+
+#navbar4menu5 ul {
+margin: 0;
+padding: 0px 0px 0px 5px;
+list-style: none;
+line-height: normal;
+}
+#navbar4menu5 li {
+display: block;
+float: left;
+}
+
+#navbar4menu5 a {
+display: block;
+float: left;
+height: 15px;
+width:80px;
+margin-right: 3px;
+padding: 14px 25px 15px 25px;
+text-decoration: none;
+text-transform: capitalize;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 16px;
+color: #55a686;
+font-weight:bold;
+}
+#navbar4menu5
+{
+position:absolute;
+z-index:100;
+width:130px;
+height:540px;
+background-image:url("images/wall.jpg");
+
+margin:77px 0px 0px -8px;
+text-align:left;
+font-family: arial;
+font-size:22px;
+}
+
+#navbar4menu44
+{
+position:absolute;
+z-index:100;
+width:130px;
+height:340px;
+background-image:url("images/wall.jpg");
+
+margin:77px 0px 0px -8px;
+text-align:left;
+font-family: arial;
+font-size:22px;
+}
+#navbar4menu44 ul {
+margin: 0;
+padding: 0px 0px 0px 5px;
+list-style: none;
+line-height: normal;
+}
+#navbar4menu44 li {
+display: block;
+float: left;
+}
+
+#navbar4menu44 a {
+display: block;
+float: left;
+height: 15px;
+width:80px;
+margin-right: 3px;
+padding: 14px 25px 15px 25px;
+text-decoration: none;
+text-transform: capitalize;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 16px;
+color: #55a686;
+font-weight:bold;
+}
+
+
+
+
+#navbar4menu999
+{
+position:absolute;
+z-index:100;
+width:130px;
+height:340px;
+background-image:url("images/wall.jpg");
+
+margin:77px 0px 0px -8px;
+text-align:left;
+font-family: arial;
+font-size:22px;
+}
+#navbar4menu999 ul {
+margin: 0;
+padding: 0px 0px 0px 5px;
+list-style: none;
+line-height: normal;
+}
+#navbar4menu999 li {
+display: block;
+float: left;
+}
+
+#navbar4menu999 a {
+display: block;
+float: left;
+height: 15px;
+width:80px;
+margin-right: 3px;
+padding: 14px 25px 15px 25px;
+text-decoration: none;
+text-transform: capitalize;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 16px;
+color: #55a686;
+font-weight:bold;
+}
+
+
+
+
+
+
+
+
+
+
+#navbar4menu101
+{
+position:absolute;
+z-index:100;
+width:130px;
+height:340px;
+background-image:url("images/wall.jpg");
+
+margin:77px 0px 0px -8px;
+text-align:left;
+font-family: arial;
+font-size:22px;
+}
+#navbar4menu101 ul {
+margin: 0;
+padding: 0px 0px 0px 5px;
+list-style: none;
+line-height: normal;
+}
+#navbar4menu101 li {
+display: block;
+float: left;
+}
+
+#navbar4menu101 a {
+display: block;
+float: left;
+height: 15px;
+width:80px;
+margin-right: 3px;
+padding: 14px 25px 15px 25px;
+text-decoration: none;
+text-transform: capitalize;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 16px;
+color: #55a686;
+font-weight:bold;
+}
